@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcos y Jardineras para Andas - Florería Señor de los Milagros</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .andas-container {
+            padding: 60px 10%;
+            text-align: center;
+        }
+        .andas-container h1 {
+            color: #2e1a47;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+        .andas-container .subtitle {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 18px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* Contenedor flexible experto para centrar una sola tarjeta de forma perfecta */
+        .flex-centro-tarjeta {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        /* Tu clase nativa limitada al tamaño estricto idéntico a las tarjetas de ramos */
+        .item-anda {
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            border: 1px solid #f3e5f5;
+            width: 100%;
+            max-width: 480px; /* Medida justa e idéntica a tus otras secciones */
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        /* Ajuste de alejamiento experto para que la foto se vea completa */
+        .item-anda img {
+            width: 100%;
+            height: 320px; /* Incrementamos la altura para que la imagen luzca más amplia */
+            object-fit: contain; /* EFECTO DE ALEJAR: muestra el arco entero sin recortar los lados */
+            background-color: #ffffff; /* Evita bordes negros o grises si la foto es angosta */
+            padding: 15px; /* Margen interno para que el arreglo respire de forma premium */
+            display: block;
+        }
+        .anda-info {
+            padding: 30px;
+            background-color: #ffffff;
+        }
+        .anda-info h3 {
+            color: #6a1b9a;
+            margin-bottom: 15px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .anda-info p {
+            color: #333333;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .btn-regresar {
+            display: inline-block;
+            background-color: #2e1a47;
+            color: #ffffff;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: background 0.3s;
+        }
+        .btn-regresar:hover {
+            background-color: #6a1b9a;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="andas-container">
+        <h1>Arcos y Jardineras para Andas</h1>
+        <p class="subtitle">Honramos nuestras tradiciones con elegancia. Diseños monumentales confeccionados a medida con total solemnidad y fervor.</p>
+
+        <!-- Contenedor experto de alineación -->
+        <div class="flex-centro-tarjeta">
+
+            <!-- Tarjeta Única Centrada con Medida Perfecta y Fondo Blanco -->
+            <div class="item-anda">
+                <img src="assets/logo/d7.jpeg" alt="Arcos y Jardineras para Andas">
+                <div class="anda-info">
+                    <h3>Arcos y Jardineras para Andas</h3>
+                    <p>Estructuras imponentes y arreglos densos integrados en perfecta armonía. Confeccionamos decoraciones majestuosas a medida para vestir con total solemnidad y fervor las andas de nuestras sagradas imágenes.</p>
+                    <a href="foto-andas.html" class="btn-card">Ver Fotos</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Botón para volver a la página principal -->
+        <a href="index.html" class="btn-regresar">← Volver al Inicio</a>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <p>&copy; 2026 Florería Señor de los Milagros. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

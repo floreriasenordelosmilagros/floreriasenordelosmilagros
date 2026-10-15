@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos y Alfombras para Eventos - Florería Señor de los Milagros</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .eventos-container {
+            padding: 60px 10%;
+            text-align: center;
+        }
+        .eventos-container h1 {
+            color: #2e1a47;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+        .eventos-container .subtitle {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 18px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .grid-eventos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 480px)); /* Limita el ancho idéntico a ramos */
+            justify-content: center; /* Centra las dos tarjetas en pantallas grandes */
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        .item-evento {
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border: 1px solid #f3e5f5;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        /* Estilos e imagen optimizada de nivel experto */
+        .item-evento img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            object-position: center 65%;
+            display: block;
+        }
+        .evento-info {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+        }
+        .item-evento h3 {
+            color: #6a1b9a;
+            margin-bottom: 15px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .item-evento p {
+            color: #333333;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .btn-card {
+            display: inline-block;
+            background-color: #6a1b9a;
+            color: #ffffff;
+            padding: 10px 25px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-top: auto; /* Alinea los botones perfectamente */
+        }
+        .btn-card:hover {
+            background-color: #7b1fa2;
+            transform: translateY(-2px);
+        }
+        .btn-regresar {
+            display: inline-block;
+            background-color: #2e1a47;
+            color: #ffffff;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: background 0.3s;
+        }
+        .btn-regresar:hover {
+            background-color: #6a1b9a;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="eventos-container">
+        <h1>Arreglos y Alfombras para Eventos</h1>
+        <p class="subtitle">Sofisticación, color y estilo para tus momentos más importantes. Diseñamos ambientes mágicos a la medida de tu celebración.</p>
+
+        <!-- Contenedor del catálogo -->
+        <div class="grid-eventos">
+            
+            <!-- Tarjeta 1: Arreglos para Eventos -->
+            <div class="item-evento">
+                <!-- Reemplaza 'decoracion.jpg' por la ruta de tu imagen -->
+                <img src="assets/logo/d8.jpeg" alt="Decoraciones para Eventos">
+                <div class="evento-info">
+                    <h3>Decoraciones para Eventos</h3>
+                    <p>Decoración floral exclusiva para bodas, promociones, bautizos y aniversarios, cuidando cada detalle para crear un ambiente inolvidable.</p>
+                    <a href="foto-decoraciones.html" class="btn-card">Ver Fotos</a>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2: Alfombras Florales -->
+            <div class="item-evento">
+                <!-- Reemplaza 'alfombras.jpg' por la ruta de tu imagen -->
+                <img src="assets/logo/d9.jpeg" alt="Alfombras Florales">
+                <div class="evento-info">
+                    <h3>Alfombras Florales</h3>
+                    <p>Arte efímero confeccionado con pétalos frescos y diseños personalizados para festividades religiosas, homenajes y ocasiones especiales.</p>
+                    <a href="foto-alfombras.html" class="btn-card">Ver Fotos</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Botón para volver a la página principal -->
+        <a href="index.html" class="btn-regresar">← Volver al Inicio</a>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Florería Señor de los Milagros. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
