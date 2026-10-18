@@ -3,91 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería de Ramos Combinados</title>
+    <title>Galería de ramos combinados | Florería Señor de los Milagros</title>
+    <meta name="description" content="Elegancia, frescura y armonía en cada uno de nuestros diseños">
+    <meta name="theme-color" content="#2e1a47">
+    <link rel="canonical" href="https://floreriasenordelosmilagros.github.io/floreriasenordelosmilagros/foto-ramos.html">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B8%3C/text%3E%3C/svg%3E">
+
+    <!-- Vista previa al compartir en WhatsApp y Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_PE">
+    <meta property="og:title" content="Galería de ramos combinados | Florería Señor de los Milagros">
+    <meta property="og:description" content="Elegancia, frescura y armonía en cada uno de nuestros diseños">
+    <meta property="og:url" content="https://floreriasenordelosmilagros.github.io/floreriasenordelosmilagros/foto-ramos.html">
+    <meta property="og:image" content="https://floreriasenordelosmilagros.github.io/floreriasenordelosmilagros/assets/logo/d4.jpeg">
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        .gallery-container {
-            padding: 60px 10%;
-            text-align: center;
-        }
-        .gallery-container h1 {
-            color: #2e1a47;
-            font-size: 36px;
-            margin-bottom: 15px;
-        }
-        .gallery-container .subtitle {
-            color: #666;
-            margin-bottom: 40px;
-            font-size: 18px;
-        }
-        /* Cuadrícula adaptable para las fotos de ramos */
-        .grid-fotos {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            margin-bottom: 50px;
-        }
-        .foto-card {
-            background: #ffffff;
-            padding: 12px;
-            border-radius: 12px;
-            box-shadow: 0 6px 20px rgba(74, 20, 140, 0.06);
-            border: 1px solid #f3e5f5;
-            transition: transform 0.3s;
-        }
-        .foto-card:hover {
-            transform: scale(1.03);
-        }
-        .foto-card img {
-            width: 100%;
-            height: 320px;
-            object-fit: cover;
-            border-radius: 8px;
-            display: block;
-        }
-        .btn-back {
-            display: inline-block;
-            background-color: #6a1b9a;
-            color: #ffffff;
-            padding: 12px 35px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 25px;
-            transition: background 0.3s;
-        }
-        .btn-back:hover {
-            background-color: #2e1a47;
-        }
-    </style>
 </head>
-<body>
+<body data-pregunta="este ramo" data-base="https://floreriasenordelosmilagros.github.io/floreriasenordelosmilagros/">
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
 
-    <main class="gallery-container">
-        <h1>Catálogo Completo de Ramos Combinados</h1>
-        <p class="subtitle">Elegancia, frescura y armonía visual en cada uno de nuestros diseños exclusivos.</p>
-
-         <!-- Galería Interactiva de Ramos -->
-        <div class="grid-fotos">
-            
-            <div class="foto-card"><a href="https://wa.me/51988796986" target="_blank" rel="noopener noreferrer"><img src="./assets/ramos.jpg/r1.jpeg" alt="Ramo 1"></a></div>
-            <div class="foto-card"><a href="https://wa.me/51988796986" target="_blank" rel="noopener noreferrer"><img src="./assets/ramos.jpg/r2.jpeg" alt="Ramo 2"></a></div>
-            <div class="foto-card"><a href="https://wa.me/51988796986" target="_blank" rel="noopener noreferrer"><img src="./assets/ramos.jpg/r3.jpeg" alt="Ramo 3"></a></div>
-            <div class="foto-card"><a href="https://wa.me/51988796986" target="_blank" rel="noopener noreferrer"><img src="./assets/ramos.jpg/r4.jpeg" alt="Ramo 4"></a></div>
-            <div class="foto-card"><a href="https://wa.me/51988796986" target="_blank" rel="noopener noreferrer"><img src="./assets/ramos.jpg/r5.jpeg" alt="Ramo 5"></a></div>
-
+    <!-- Navegación -->
+    <header class="navbar">
+        <div class="contenedor navbar-interior">
+            <a href="index.html" class="navbar-logo" aria-label="Florería Señor de los Milagros, ir al inicio">
+                <span class="logo-marca" aria-hidden="true">M</span>
+                <span class="logo-text">Señor de los Milagros<small>Florería</small></span>
+            </a>
+            <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span></button>
+            <nav aria-label="Principal">
+                <ul class="nav-links" id="menu">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#servicios" class="activo">Servicios</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+                <li><a class="nav-cta" href="https://wa.me/51988796986?text=Hola%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Pedir ahora</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
+    <main id="contenido">
+        <header class="page-header">
+            <p class="migas"><a href="index.html">Inicio</a><span>/</span><a href="ramos.html">Ramos y detalles</a><span>/</span>Galería</p>
+            <h1>Galería de ramos combinados</h1>
+            <p>Elegancia, frescura y armonía en cada uno de nuestros diseños</p>
+        </header>
 
-
-        <a href="ramos.html" class="btn-back">← Volver al Catálogo</a>
+        <section class="seccion">
+            <div class="contenedor">
+                <p class="galeria-nota">Elige el diseño que te guste y toca <strong>¿Cuánto está?</strong> para preguntarnos el precio por WhatsApp con la foto incluida</p>
+                <div class="galeria">
+                    <figure class="foto-item" data-codigo="R1">
+                        <button class="foto-card" type="button" aria-label="Ampliar ramo combinado código R1"><img src="assets/ramos.jpg/r1.jpeg" alt="Ramo combinado código R1" loading="lazy"></button>
+                        <figcaption>
+                            <span class="foto-codigo">Código R1</span>
+                            <a class="foto-precio" href="https://wa.me/51988796986?text=Hola%2C%20%C2%BFcu%C3%A1nto%20est%C3%A1%20este%20ramo%3F%20C%C3%B3digo%20R1%0Ahttps%3A//floreriasenordelosmilagros.github.io/floreriasenordelosmilagros/p/r1.html" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.6l-.4-.3-3.8 1.2 1.2-3.7-.3-.4a10.4 10.4 0 0 1-1.7-5.8C5.1 10 10 5.3 16 5.3S26.9 10 26.9 15.8 22 26.4 16 26.4zm6-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.8 8.8 0 0 1-2.6-1.6 9.7 9.7 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6.3-.5v-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.4c.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5l-.6-.3z"/></svg> ¿Cuánto está?</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="foto-item" data-codigo="R2">
+                        <button class="foto-card" type="button" aria-label="Ampliar ramo combinado código R2"><img src="assets/ramos.jpg/r2.jpeg" alt="Ramo combinado código R2" loading="lazy"></button>
+                        <figcaption>
+                            <span class="foto-codigo">Código R2</span>
+                            <a class="foto-precio" href="https://wa.me/51988796986?text=Hola%2C%20%C2%BFcu%C3%A1nto%20est%C3%A1%20este%20ramo%3F%20C%C3%B3digo%20R2%0Ahttps%3A//floreriasenordelosmilagros.github.io/floreriasenordelosmilagros/p/r2.html" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.6l-.4-.3-3.8 1.2 1.2-3.7-.3-.4a10.4 10.4 0 0 1-1.7-5.8C5.1 10 10 5.3 16 5.3S26.9 10 26.9 15.8 22 26.4 16 26.4zm6-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.8 8.8 0 0 1-2.6-1.6 9.7 9.7 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6.3-.5v-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.4c.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5l-.6-.3z"/></svg> ¿Cuánto está?</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="foto-item" data-codigo="R3">
+                        <button class="foto-card" type="button" aria-label="Ampliar ramo combinado código R3"><img src="assets/ramos.jpg/r3.jpeg" alt="Ramo combinado código R3" loading="lazy"></button>
+                        <figcaption>
+                            <span class="foto-codigo">Código R3</span>
+                            <a class="foto-precio" href="https://wa.me/51988796986?text=Hola%2C%20%C2%BFcu%C3%A1nto%20est%C3%A1%20este%20ramo%3F%20C%C3%B3digo%20R3%0Ahttps%3A//floreriasenordelosmilagros.github.io/floreriasenordelosmilagros/p/r3.html" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.6l-.4-.3-3.8 1.2 1.2-3.7-.3-.4a10.4 10.4 0 0 1-1.7-5.8C5.1 10 10 5.3 16 5.3S26.9 10 26.9 15.8 22 26.4 16 26.4zm6-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.8 8.8 0 0 1-2.6-1.6 9.7 9.7 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6.3-.5v-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.4c.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5l-.6-.3z"/></svg> ¿Cuánto está?</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="foto-item" data-codigo="R4">
+                        <button class="foto-card" type="button" aria-label="Ampliar ramo combinado código R4"><img src="assets/ramos.jpg/r4.jpeg" alt="Ramo combinado código R4" loading="lazy"></button>
+                        <figcaption>
+                            <span class="foto-codigo">Código R4</span>
+                            <a class="foto-precio" href="https://wa.me/51988796986?text=Hola%2C%20%C2%BFcu%C3%A1nto%20est%C3%A1%20este%20ramo%3F%20C%C3%B3digo%20R4%0Ahttps%3A//floreriasenordelosmilagros.github.io/floreriasenordelosmilagros/p/r4.html" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.6l-.4-.3-3.8 1.2 1.2-3.7-.3-.4a10.4 10.4 0 0 1-1.7-5.8C5.1 10 10 5.3 16 5.3S26.9 10 26.9 15.8 22 26.4 16 26.4zm6-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.8 8.8 0 0 1-2.6-1.6 9.7 9.7 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6.3-.5v-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.4c.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5l-.6-.3z"/></svg> ¿Cuánto está?</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="foto-item" data-codigo="R5">
+                        <button class="foto-card" type="button" aria-label="Ampliar ramo combinado código R5"><img src="assets/ramos.jpg/r5.jpeg" alt="Ramo combinado código R5" loading="lazy"></button>
+                        <figcaption>
+                            <span class="foto-codigo">Código R5</span>
+                            <a class="foto-precio" href="https://wa.me/51988796986?text=Hola%2C%20%C2%BFcu%C3%A1nto%20est%C3%A1%20este%20ramo%3F%20C%C3%B3digo%20R5%0Ahttps%3A//floreriasenordelosmilagros.github.io/floreriasenordelosmilagros/p/r5.html" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.6l-.4-.3-3.8 1.2 1.2-3.7-.3-.4a10.4 10.4 0 0 1-1.7-5.8C5.1 10 10 5.3 16 5.3S26.9 10 26.9 15.8 22 26.4 16 26.4zm6-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.8 8.8 0 0 1-2.6-1.6 9.7 9.7 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6.3-.5v-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.4c.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5l-.6-.3z"/></svg> ¿Cuánto está?</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="pie-pagina-interna">
+                    <a href="ramos.html" class="btn btn-volver">Volver a ramos y detalles</a>
+                    <a href="https://wa.me/51988796986?text=Hola%2C%20quiero%20cotizar%20ramos%20combinados%20con%20una%20idea%20propia" class="btn btn-wa" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.6l-.4-.3-3.8 1.2 1.2-3.7-.3-.4a10.4 10.4 0 0 1-1.7-5.8C5.1 10 10 5.3 16 5.3S26.9 10 26.9 15.8 22 26.4 16 26.4zm6-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.8 8.8 0 0 1-2.6-1.6 9.7 9.7 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6.3-.5v-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.4c.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5l-.6-.3z"/></svg> Tengo otra idea</a>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- Visor de fotos -->
+    <div class="visor" role="dialog" aria-modal="true" aria-label="Foto ampliada" aria-hidden="true">
+        <button class="visor-btn visor-cerrar" type="button" aria-label="Cerrar">&times;</button>
+        <button class="visor-btn visor-prev" type="button" aria-label="Foto anterior">&#8249;</button>
+        <img src="" alt="">
+        <button class="visor-btn visor-next" type="button" aria-label="Foto siguiente">&#8250;</button>
+        <div class="visor-pie">
+            <span class="visor-contador"></span>
+            <a href="#" class="btn btn-wa visor-pedir" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.6l-.4-.3-3.8 1.2 1.2-3.7-.3-.4a10.4 10.4 0 0 1-1.7-5.8C5.1 10 10 5.3 16 5.3S26.9 10 26.9 15.8 22 26.4 16 26.4zm6-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.8 8.8 0 0 1-2.6-1.6 9.7 9.7 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6.3-.5v-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.4c.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5l-.6-.3z"/></svg> ¿Cuánto está?</a>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
     <footer class="footer">
-        <p>&copy; 2026 Florería Señor de los Milagros. Todos los derechos reservados.</p>
+        <div class="contenedor footer-grid">
+            <div>
+                <h3>Florería Señor de los Milagros</h3>
+                <p>Más de 20 años creando ramos, andas, alfombras y decoraciones con flores frescas.</p>
+            </div>
+            <div>
+                <h3>Servicios</h3>
+                <ul>
+                    <li><a href="ramos.html">Ramos y detalles</a></li>
+                    <li><a href="andas.html">Arcos y jardineras para andas</a></li>
+                    <li><a href="eventos.html">Decoraciones y alfombras</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contacto</h3>
+                <ul>
+                    <li><a href="https://wa.me/51988796986?text=Hola%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">WhatsApp 988 796 986</a></li>
+                    <li><a href="tel:+51988796986">Llamar al 988 796 986</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-base">
+            <div class="contenedor">&copy; <span class="anio">2026</span> Florería Señor de los Milagros. Todos los derechos reservados.</div>
+        </div>
     </footer>
 
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/51988796986?text=Hola%2C%20quiero%20hacer%20un%20pedido" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C8.8 3 3 8.7 3 15.8c0 2.5.7 4.9 2 7L3 29l6.4-2c2 1.1 4.3 1.7 6.6 1.7 7.2 0 13-5.7 13-12.8S23.2 3 16 3zm0 23.4c-2.1 0-4.1-.6-5.9-1.6l-.4-.3-3.8 1.2 1.2-3.7-.3-.4a10.4 10.4 0 0 1-1.7-5.8C5.1 10 10 5.3 16 5.3S26.9 10 26.9 15.8 22 26.4 16 26.4zm6-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.8 8.8 0 0 1-2.6-1.6 9.7 9.7 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6.3-.5v-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.4c.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5l-.6-.3z"/></svg></a>
+
+    <script src="script/script.js" defer></script>
 </body>
 </html>
-
-    <!-- Botón Flotante de WhatsApp para Ramos -->
-    <a href="https://wa.me/51988796986" class="whatsapp-float" target="_blank" rel="noopener noreferrer"></a>
